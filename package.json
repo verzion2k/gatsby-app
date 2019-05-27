@@ -30,13 +30,11 @@
 		"prettier": "^1.17.1",
 		"sass": "^1.20.1"
 	},
-	"keywords": [
-		"gatsby"
-	],
+	"keywords": [ "gatsby" ],
 	"license": "MIT",
 	"scripts": {
 		"build": "gatsby build",
-		"develop": "env-cmd .env.development gatsby develop",
+		"develop": "env-cmd .env gatsby develop",
 		"format": "prettier --write src/**/*.{js,jsx}",
 		"start": "npm run develop",
 		"serve": "gatsby serve",
